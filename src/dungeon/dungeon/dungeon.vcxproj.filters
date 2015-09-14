@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="windowSystem">
+      <UniqueIdentifier>{fc5ea452-fe70-4ee3-8b60-de861f9d4145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureManager">
+      <UniqueIdentifier>{672940c4-7303-40f2-92f3-27c2a29a92b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadManager">
+      <UniqueIdentifier>{c1bbe571-0176-4cbe-a4a4-427929adfd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{b0abad52-ee03-44e8-a85b-6f69cdca1da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{34838a77-2b13-4f38-bc37-001018bb6991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e22e217f-15b4-4f28-bf7a-4993310f0b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5835e005-4f19-463a-b7a1-d0af441949ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{757c5573-1182-402c-932c-db0071d31fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{55f40221-c972-49f1-97e3-5b6f8b9a61de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{26e3b262-524d-4568-ae35-1294743660fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{27202f41-6f74-4d6e-b33e-ef25ea0819bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Workers">
+      <UniqueIdentifier>{2da45b9b-e4ad-4ed2-9de2-fee61d68653b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SpaceManagers">
+      <UniqueIdentifier>{1333ae78-65be-4a75-b4c7-2fcfff4330fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{2edd8d9f-a00c-4e39-a5a4-40e51c03fd65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Artist.cpp">
+      <Filter>windowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthBuffer.cpp">
+      <Filter>windowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>windowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicExpert.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueScreen.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitives.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FogManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PostEffectManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcedureMaterialManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexCompressor.cpp">
+      <Filter>Engine\Workers</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexObject.cpp">
+      <Filter>Engine\Workers</Filter>
+    </ClCompile>
+    <ClCompile Include="Weaver.cpp">
+      <Filter>Engine\Workers</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslucencyManager.cpp">
+      <Filter>Engine\SpaceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Artist.h">
+      <Filter>windowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>windowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicExpert.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueScreen.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FogManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PostEffectManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcedureMaterialManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexCompressor.h">
+      <Filter>Engine\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexObject.h">
+      <Filter>Engine\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertices.h">
+      <Filter>Engine\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="Weaver.h">
+      <Filter>Engine\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslucencyManager.h">
+      <Filter>Engine\SpaceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="animation.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="fogging.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="input_data.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="lightning.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="post_effect.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="post_effect_processor.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="procedure_material_manager.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="simple.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="structures.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="dungeon.log" />
+  </ItemGroup>
+</Project>
